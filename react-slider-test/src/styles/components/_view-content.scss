@@ -1,0 +1,75 @@
+.view-content {
+  font-family: $font-roboto;
+  z-index: 30;
+  text-align: right;
+  padding-top: rem(50);
+  padding-right: rem(30);
+
+
+  @include breakpoint($tablet-landscape) {
+    padding-top: 0;
+    padding-right: 0;
+    position: absolute;
+    bottom: rem(179);
+    right: rem(141);
+  }
+}
+
+.view-content__credits {
+  margin-bottom: rem(26);
+  font-size: rem(9);
+  line-height: rem(11);
+}
+
+.view-content__date {
+  margin-bottom: rem(44);
+  font-size: rem(9);
+  line-height: rem(11);
+}
+
+.view-content__cta {
+  font-family: $font-tungsten;
+  font-weight: $weight-semibold;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-white);
+
+  &:visited {
+    color: var(--color-white);
+  }
+
+  &:hover {
+    @include breakpoint($tablet-landscape) {
+      span {
+        animation: arrowShimmy .4s 1 normal ease-in-out;
+      }
+    }
+  }
+
+  span {
+    width: rem(14);
+    height: rem(6);
+    margin-left: rem(10);
+    background-image: url('../../images/arrow-right.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}
+
+@keyframes arrowShimmy {
+  0% {
+    right: 0;
+  }
+
+  50% {
+    right: rem(-5);
+  }
+
+  100% {
+    right: 0;
+  }
+}

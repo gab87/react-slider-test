@@ -1,0 +1,58 @@
+$font-roboto: 'roboto', sans-serif;
+$font-tungsten: 'tungsten', sans-serif;
+
+$weight-extralight: 200;
+$weight-light: 300;
+$weight-regular: 400;
+$weight-medium: 500;
+$weight-semibold: 600;
+$weight-bold: 700;
+$weight-heavy: 900;
+
+$mobile: max-width 1023px;
+$portrait: (orientation portrait);
+$small-device-portrait: (max-width 480px) (orientation portrait);
+$show-rotate: (max-width 1023px) (orientation landscape);
+$smartphone-small: 320px;
+$smartphone: 375px;
+$tablet: 768px;
+$tablet-landscape: 1024px (orientation landscape);
+$tablet-big: 1024px (orientation portrait);
+$desktop: 1280px (orientation landscape);
+$desktop-1366: 1366px (orientation landscape);
+$desktop-1440: 1440px (orientation landscape);
+$desktop-1660: 1660px (orientation landscape);
+$desktop-1920: 1920px (orientation landscape);
+
+$base-transition: .2s ease-in-out 0s;
+
+:root {
+  --color-white: #FFF;
+  --color-anthracite: #222020;
+  --slider-dot: #3C3C3C;
+}
+
+.active-view-0 {
+  --view-background: #694D41;
+  --slider-dot-active: #BE8A74;
+}
+
+.active-view-1 {
+  --view-background: #4B593F;
+  --slider-dot-active: #CAC8BE;
+}
+
+.active-view-2 {
+  --view-background: #987F5F;
+  --slider-dot-active: #BF8C46;
+}
+
+.active-view-3 {
+  --view-background: #C9B2AB;
+  --slider-dot-active: #E59F8A;
+}
+
+.active-view-4 {
+  --view-background: #7C514B;
+  --slider-dot-active: #D1B7B4;
+}

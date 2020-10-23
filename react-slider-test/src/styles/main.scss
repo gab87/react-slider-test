@@ -1,0 +1,14 @@
+@import '../../node_modules/reset-css/sass/reset';
+@import '../../node_modules/breakpoint-sass/stylesheets/breakpoint';
+@import '../../node_modules/slick-carousel/slick/slick.css';
+@import '../../node_modules/slick-carousel/slick/slick-theme.css';
+@import 'config/config';
+@import 'utils/helpers';
+@import 'utils/fonts';
+@import 'base/base';
+@import 'base/app';
+@import 'components/header';
+@import 'components/view';
+@import 'components/center-slider';
+@import 'components/view-content';
+@import 'components/pointer';

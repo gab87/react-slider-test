@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('../../fonts/roboto-regular.ttf')
+  format('truetype'),
+  url('../../fonts/roboto-regular.woff') format('woff'),
+  url('../../fonts/roboto-regular.woff2') format('woff2');
+  font-weight: $weight-regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'tungsten';
+  src: url('../../fonts/tungsten-semibold.otf')
+  format('opentype'),
+  url('../../fonts/tungsten-semibold.woff') format('woff'),
+  url('../../fonts/tungsten-semibold.woff2') format('woff2');
+  font-weight: $weight-semibold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'tungsten';
+  src: url('../../fonts/tungsten-bold.otf')
+  format('truetype'),
+  url('../../fonts/tungsten-bold.woff') format('woff'),
+  url('../../fonts/tungsten-bold.woff2') format('woff2');
+  font-weight: $weight-bold;
+  font-style: normal;
+}

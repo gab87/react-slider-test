@@ -1,0 +1,40 @@
+{
+  "view": [
+    {
+      "slider": "EVERYDAY<br>FLOWERS",
+      "content": {
+        "photoCredits": "Lucas Viperti for<br>Vogue UK Magazine",
+        "date": "July 2019"
+      }
+    },
+    {
+      "slider": "THE WILDER<br>NIGHTS",
+      "content": {
+        "photoCredits": "Carol Smith for<br>Elle Décor",
+        "date": "January 2019"
+      }
+    },
+    {
+      "slider": "SMOOTH<br>MEMORIES",
+      "content": {
+        "photoCredits": "Andrea Schiavone for<br>Harpers Baazaar",
+        "date": "November 2018"
+      }
+    },
+    {
+      "slider": "FUTURE<br>INVERSE",
+      "content": {
+        "photoCredits": "Maria Grazia Cirri for<br>Vogue UK Magazine",
+        "date": "October 2018"
+      }
+    },
+    {
+      "slider": "BORN<br>URBAN",
+      "content": {
+        "photoCredits": "Giorgia Mentana<br>Grazia Magazine",
+        "date": "July 2018"
+      }
+    }
+
+  ]
+}

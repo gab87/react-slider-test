@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  padding: rem(15) 0 0 rem(15);
+  font-family: $font-tungsten;
+  font-weight: $weight-semibold;
+  font-size: rem(16);
+  line-height: rem(18);
+  color: var(--color-white);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+
+  @include breakpoint($tablet-landscape) {
+    padding: rem(42) 0 0 rem(55);
+    font-size: rem(16);
+    line-height: rem(18);
+  }
+}
